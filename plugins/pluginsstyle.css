@@ -1,0 +1,275 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #020061, #002561);
+}
+
+.corpo {
+    margin-top: 140px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sobre {
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 800px;
+    height: auto;
+    border: 5px black solid;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #1d1d1f, #111112);
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    margin: 20px 0px 10px 10px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.recursos {
+    margin-top: 20px;
+    width: 100%;    
+    height: auto;
+}
+
+.sobreprincipal {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.685);
+    margin: 20px 0px 20px 10px;
+}
+
+.recursos h1 {
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.recursos li {
+    margin: 10px 0px 0px 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.imagem p {
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.imagem h1 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.685);
+    margin: 20px 0px 20px 10px;
+}
+
+.imagem img {
+
+    height: 100%;
+
+    max-width: 90%;
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+.opcoes {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.plugin {
+    margin-bottom: 40px;
+
+    width: 100%;
+    height: 460px;
+
+    border: 5px black solid;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #1d1d1f, #111112);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.plugin > img {
+
+    margin: 20px;
+
+    width: 140px;
+    min-height: 140px;
+
+    background-color: #1d1d1f;
+    border: 5px black solid;
+    border-radius: 3px;
+
+    background-image: linear-gradient(to right, #1d1d1f, #212626);
+
+}
+
+.title {
+    font-size: 45px;
+    max-width: 95%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+.version {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+}
+
+.about {     
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a1a1a1;
+    margin: 10px;
+    text-align: center;
+}
+
+.botoes_plugins {
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botoes_plugins a div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botoes_plugins a:nth-child(1) div {
+    
+    width: 60px;
+    height: 60px;
+
+    background-color: black;
+}
+
+.botoes_plugins a div {
+    
+    width: 130px;
+    height: 60px;
+
+    background-image: linear-gradient(to right, #163b39, #018f94);
+
+    border: 5px #000c0d solid;
+    border-radius: 10px;
+}
+
+.botoes_plugins a {
+    text-decoration: none;
+}
+
+.botoes_plugins a p {
+
+    font: 20px sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+
+.UltimaAtualizacao {
+    
+    width: 100%;
+    height: auto;
+
+    border: 5px black solid;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #1d1d1f, #111112);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.UltimaAtualizacao img {
+    height: 100%;
+
+    max-width: 90%;
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.UltimaAtualizacao p {
+    margin: 15px 15px;
+}
+
+
+@media (max-width: 600px) {
+
+    .sobre {
+        width: 90%;
+    }
+
+    .corpo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .corpo * {
+        max-width: 100%;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .sobreprincipal {
+        font-size: 16px;
+    }
+}
+

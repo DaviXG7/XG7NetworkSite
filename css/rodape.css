@@ -1,0 +1,45 @@
+/* footer */
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.redes {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.redes img {
+    margin: 0px 5px 0px 5px;
+}
+
+.Site {
+    padding-left: 30px;
+}
+
+.Site p:nth-child(1) {
+
+    margin-top: 10px;
+
+    font: 30px sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.Site p:nth-child(2) {
+
+    margin-top: 10px;
+
+    font: 15px sans-serif;
+    color: white;
+    
+}
