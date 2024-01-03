@@ -1,0 +1,141 @@
+header {
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(to right, #00373b, #02054f);
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px #010936 solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.principal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.principal div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal > div {
+    
+    width: 100%;
+    height: 100%; 
+}
+
+.botoes {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botoes a {
+    text-decoration: none;
+}
+
+.botoes a > div {
+    
+    width: 120px;
+    height: 50px;
+    margin: 20px;
+
+
+    border: 1px white solid;
+    background-image: linear-gradient(to right, #002430, #020140);
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-evenly;
+        
+}
+
+.botoes a > div:hover {
+    background-image: linear-gradient(to right, #003344, #020064);
+}
+
+menu {
+    display: none;
+}
+
+.botaomenu {
+    display: none;
+}
+
+.botoes a > div p {
+    
+    font: 1em sans-serif;
+    font-weight: bold;
+    color: white;
+    
+}
+
+@media (max-width: 600px) {
+    .botoes a {
+      display: none;
+    }
+
+    .botaomenu {
+        display: inline;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+
+    .botaomenu:hover {
+        background-image: linear-gradient(to right, #005572, #020091);
+        border: 2PX solid wheat;
+        border-radius: 2px;
+    }
+
+    menu {
+        display: none;
+        width: 100%;
+        height: auto;
+        background-color: rgb(31, 31, 31);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 3px #010936 solid;
+
+    }
+
+    menu a {
+        width: 100%;
+        height: auto;
+        text-decoration: none;
+        font: 1em sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    
+    menu a > div {
+        
+        width: 100%;
+        height: 40px;
+        margin: 5px;
+    
+        background-color: #2b2b2b;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    menu a > div * {
+        margin: 10px;
+    }
+    
+    
+    menu a > div:hover {
+        background-image: linear-gradient(to right, #003344, #020064);
+    }
+  }
